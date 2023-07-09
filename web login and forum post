@@ -1,0 +1,44 @@
+import requests
+
+# Login details
+username = "your_username"
+password = "your_password"
+
+# URL of the login page
+login_url = "https://example.com/login"
+
+# URL of the image upload endpoint
+upload_url = "https://example.com/upload"
+
+# Path to the image file on your computer
+image_path = "/path/to/your/image.jpg"
+
+# Create a session
+session = requests.Session()
+
+# Send a POST request to the login URL with the login credentials
+login_data = {
+    "username": username,
+    "password": password
+}
+response = session.post(login_url, data=login_data)
+
+# Check if the login was successful
+if response.status_code == 200:
+    # Read the image file
+    with open(image_path, "rb") as file:
+        image_data = file.read()
+
+    # Send a POST request to the image upload endpoint with the image file
+    files = {
+        "image": ("image.jpg", image_data)
+    }
+    response = session.post(upload_url, files=files)
+
+    # Check if the image upload was successful
+    if response.status_code == 200:
+        print("Image uploaded successfully.")
+    else:
+        print("Failed to upload image.")
+else:
+    print("Login failed.")
