@@ -1,0 +1,18 @@
+print('Hello, i am the mind reading robot')
+
+name=input('what is your name?')
+
+age=input('how old?')
+if name=='poop':
+    print('not again ew get outta here')
+elif name=='weslyn':
+    print(f"little nade butt is literally, {age}, and TOADS smells like a poop")
+elif name=='rylan' :
+    print(f"{age} years old, {name}, you love tacos...and your boyfriend LANE ")
+elif name=='ry':
+    print('pew... you need to take a bath')
+elif name=='pee':
+    print('that is a wierd name')
+else:
+    print('no mind detected bro')
+print('dont say turd, say nice things')
