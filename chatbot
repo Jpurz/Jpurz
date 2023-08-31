@@ -6,13 +6,13 @@ age=input('how old?')
 if name=='poop':
     print('not again ew get outta here')
 elif name=='weslyn':
-    print(f"little nade butt is literally, {age}, and TOADS smells like a poop")
+    print(f"little Wes is literally, {age}, and TOADS stinks")
 elif name=='rylan' :
-    print(f"{age} years old, {name}, you love tacos...and your boyfriend LANE ")
+    print(f"{age} years old, {name}, you love tacos...and your boyfriend is LANE ")
 elif name=='ry':
     print('pew... you need to take a bath')
 elif name=='pee':
     print('that is a wierd name')
 else:
     print('no mind detected bro')
-print('dont say turd, say nice things')
+print('im done')
