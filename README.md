@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @Jpurz
-- 👀 I’m interested in coding python, VBA, C++
-- 🌱 I’m currently learning sql, esp32, and Arduino
+- 👀 I’m interested in coding python, VBA, C++, and office scripts
+- 🌱 I’m currently learning office scripts, esp32 and Arduino dev boards, and working with selenium. 
 - 💞️ I’m looking to collaborate on anything
-- 📫 How to reach me: jpurs007@gmail.com
+- 📫 How to reach me: message me here on Github
 
 <!---
 Jpurz/Jpurz is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
